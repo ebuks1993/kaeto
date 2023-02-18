@@ -27,7 +27,7 @@ SECRET_KEY =os.environ.get('DJANGO_SECRET_KEY','djangoE-insecureB-p%i0)ebx^75sty
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*","kaeto-production.up.railway.app"]
 
 
 # Application definition
